@@ -3,6 +3,10 @@
  */
 public class TestClass2 {
     public static void main(String[] args) {
-        System.out.println("Hello CI! I'm modified");
+        System.out.println("Hello CI! I am modified");
     }
+	
+	public int add(int a, int b) {
+		return (a+b);
+	}
 }
