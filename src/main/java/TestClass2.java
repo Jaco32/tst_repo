@@ -4,6 +4,7 @@
 public class TestClass2 {
     public static void main(String[] args) {
         System.out.println("Hello CI! I am modified");
+        System.out.println("Hello CI! I am modified");
     }
 	
 	public int add(int a, int b) {
