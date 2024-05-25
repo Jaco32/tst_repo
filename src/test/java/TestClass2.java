@@ -4,7 +4,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class TestClass2_test {
+public class TestClass2 {
     @Test
     public void checkSum() {
         TestClass2 testClass = new TestClass2();

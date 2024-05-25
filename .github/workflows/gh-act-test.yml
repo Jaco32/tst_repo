@@ -1,0 +1,10 @@
+name: GH Act Test
+run-name: ${{ github.actor }} is testing GH Act
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The step was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "This step is now running on a ${{ runner.os }} server hoste by GitHub."
+      - run: echo "The name of your branch is ${{ github.ref }} and your repo is ${{ github.repository }}
